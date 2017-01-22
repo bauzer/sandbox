@@ -1,0 +1,52 @@
+#graph {
+  display: none;
+}
+#graph.mode_condition {
+  display: none;
+}
+#graph.mode_graph {
+  display: block;
+}
+#conditions {
+  display: none;
+}
+#conditions.mode_condition {
+  display: block;
+}
+#conditions.mode_graph {
+  display: none;
+}
+.info {
+  margin: 0.5rem;
+  padding: 1rem;
+  font-weight:850;
+  color:#262626;
+  background:#99CCFF;
+  border:1px
+  solid #0066CC;
+  border-radius: 0.5rem;
+}
+.success {
+  margin: 0.5rem;
+  padding: 1rem;
+  font-weight: 850;
+  color: #262626;
+  background: #CCFFCC;
+  border: 1px solid #00CC00;
+  border-radius: 0.5rem;
+}
+.error {
+  margin: 0.5rem;
+  padding: 1rem;
+  font-weight: 850;
+  color: #e00;
+  background: #FFEBE8;
+  border: 1px solid #990000;
+  border-radius: 0.5rem;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;;
+}
